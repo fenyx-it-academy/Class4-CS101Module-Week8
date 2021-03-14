@@ -2,7 +2,7 @@ from LinkedList import LinkedList
 
 
 class Queue:
-    def __init_(self):
+    def __init__(self) -> None:
         self.__list = LinkedList()
 
     def size(self):
