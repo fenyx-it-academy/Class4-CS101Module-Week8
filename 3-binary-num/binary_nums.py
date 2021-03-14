@@ -17,4 +17,4 @@ def binary_numbers(n):
         q.enqueue(str(num2)+'1')
 
 
-binary_numbers(10)
+binary_numbers(10000)
