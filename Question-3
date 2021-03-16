@@ -5,8 +5,7 @@
 #Output :
 # 1 10 11 100 101 110 111 1000 1001 1010 1011 1100 1101 1110 1111 10000
 
-def Binary(n): 
-    return "{0:b}".format(int(n))
-d=int(input("Enter the number: "))
-for i in range(d):
-    print(Binary(i+1), end=" ")
+
+a=int(input("Enter the number: "))
+for i in range(a):
+    print("{0:b}".format(int(i+1)), end=" ")
