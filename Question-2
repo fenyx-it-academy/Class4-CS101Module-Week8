@@ -1,6 +1,6 @@
 #Implement a queue using a single linked list. (Hint: Enqueuing happens at the tail of the list, and the dequeuing of items happens at the head of the list.)
 
-# singlelinkedlist.py
+# To run the code, first save the first code as singlelinkedlist.py . And then run the code below.
 
 from __future__ import annotations
 from typing import Tuple
