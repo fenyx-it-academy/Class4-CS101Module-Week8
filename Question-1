@@ -1,0 +1,24 @@
+#Implement a stack that supports push and pop operations using standard enqueue and dequeue operations of the queue.
+
+from collections import deque
+class Stack():
+    def __init__(self, size):
+        self.size=size
+        self.liste=deque("")
+    def push(self, item):
+        self.liste.append(item)
+    def pop(self):
+        self.liste.pop()
+    def show(self):
+        print(self.liste)
+a=Stack(3)
+a.push("ali")
+a.show()
+a.push("ahmet")
+a.show()
+a.push("mehmet")
+a.show()
+a.pop()
+a.show()
+a.pop()
+a.show()
